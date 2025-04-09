@@ -854,7 +854,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>5</integer>
+			<integer>10</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -964,11 +964,11 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 agdpmod=pikera debug=0x100 swd_panic=1</string>
+				<string>keepsyms=1 agdpmod=pikera debug=0x100 swd_panic=1</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
-				<data>cnUtUlU6MjUy</data>
+				<data>emgtSGFudzoyNTI=</data>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>bluetoothExternalDongleFailed</key>
