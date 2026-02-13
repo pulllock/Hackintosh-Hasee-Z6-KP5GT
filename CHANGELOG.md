@@ -1,8 +1,14 @@
 # Changelog
 
+## 2026-02-14
+
+### Changed
+
+- Fix Mic, change layout id to 34.
+
 ## 2026-02-13
 
-## Added
+### Added
 
 Add NVRAM parameters:
 
