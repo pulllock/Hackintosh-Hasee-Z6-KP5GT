@@ -1,5 +1,27 @@
 # Changelog
 
+## 2026-03-18
+
+### Changed
+
+- Update to macOS 26 (Tahoe).
+
+- NVRAM: 
+	- UUID: 7C436110-AB2A-4BBB-A880-FE41995C9F82
+		- boot-args: 
+			- ADD: revpatch=sbvmm
+			- ADD: -ibtcompatbeta
+		- csr-active-config: 
+			- UPDATE: 03080000
+
+- Kernel: 
+	- ADD: USBMap.kext
+	- DELETE: USBInjectAll.kext
+	- DISABLE: IntelBTPatcher.kext
+
+- Reinstall AppleHDA.kext: 
+	- Using: https://github.com/Mirone/MyKextInstaller
+
 ## 2026-02-14
 
 ### Changed
